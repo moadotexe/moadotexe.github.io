@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>moa.exe</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
-  <meta name="description" content="Personal site built with GitHub Pages." />
+  <meta name="description" content="Moa — data scientist in training. Applied Physics background. Health financing data analysis and policy research." />
 
   <style>
     /* ── Tokens ── */
@@ -435,7 +435,7 @@
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
     <ul class="nav-links" id="nav-links" role="list">
       <li><a href="#" data-page="home">~/home</a></li>
-      <li><a href="#" data-page="projects">~/projects</a></li>
+      <li><a href="#" data-page="experience">~/experience</a></li>
       <li><a href="#" data-page="about">~/about</a></li>
       <li><a href="#" data-page="contact">~/contact</a></li>
     </ul>
@@ -463,22 +463,22 @@
     <div class="hero-glow"></div>
     <p class="hero-prompt"><span>moa@github</span>:~$ whoami</p>
     <h1>
-      Full-stack<br>
-      <span class="hl">builder</span> &amp;<br>
-      <span class="hl2">open-source</span> dev.
+      Data scientist<br>
+      <span class="hl">in training.</span><br>
+      <span class="hl2">Applied Physics</span> background.
     </h1>
     <p class="hero-desc">
-      I build health-focused tools and write about the process.
-      Currently shipping in Python + Stata. Based somewhere with good coffee.
+      I analyze health financing data to support policy decisions.
+      Currently working in Python + Stata on public health research. Based in the Philippines.
     </p>
     <div class="btn-row">
-      <a class="btn btn-primary" href="#" data-page="projects">View Projects →</a>
+      <a class="btn btn-primary" href="#" data-page="experience">View Experience →</a>
       <a class="btn btn-ghost" href="#" data-page="contact">Get in touch</a>
     </div>
     <div class="stats-row">
-      <div class="stat-item"><div class="stat-num">24</div><div class="stat-label">Projects</div></div>
-      <div class="stat-item"><div class="stat-num">3.4k</div><div class="stat-label">GitHub stars</div></div>
-      <div class="stat-item"><div class="stat-num">5+</div><div class="stat-label">Years exp.</div></div>
+      <div class="stat-item"><div class="stat-num">3</div><div class="stat-label">Roles</div></div>
+      <div class="stat-item"><div class="stat-num">2023</div><div class="stat-label">Physics grad</div></div>
+      <div class="stat-item"><div class="stat-num">1+</div><div class="stat-label">Years exp.</div></div>
     </div>
   </section>
 
@@ -489,11 +489,11 @@
     </div>
     <div class="terminal-body">
       <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd">cat skills.txt</span></div>
-      <div class="t-out t-accent">TypeScript · Rust · React · Node · Postgres · Docker · CI/CD</div>
-      <div class="t-line" style="margin-top:.5rem"><span class="t-prompt">❯</span><span class="t-cmd">git log --oneline --max-count 3</span></div>
-      <div class="t-out"><span class="t-accent">f3a1c9b</span> feat: add streaming API layer</div>
-      <div class="t-out"><span class="t-accent">a87e002</span> fix: memory leak in worker pool</div>
-      <div class="t-out"><span class="t-accent">2d49ff1</span> refactor: split config module</div>
+      <div class="t-out t-accent">Python · Stata · Machine Learning · Statistical Analysis · GitHub</div>
+      <div class="t-line" style="margin-top:.5rem"><span class="t-prompt">❯</span><span class="t-cmd">cat current_role.txt</span></div>
+      <div class="t-out"><span class="t-accent">org:</span>    Philippine Institute for Development Studies</div>
+      <div class="t-out"><span class="t-accent">role:</span>   Project Technical Assistant</div>
+      <div class="t-out"><span class="t-accent">focus:</span>  health financing, eSOA/DRG research</div>
       <div class="t-line" style="margin-top:.5rem"><span class="t-prompt">❯</span><span class="t-cmd cursor-line" style="display:inline-flex;gap:.35rem;align-items:center">█</span></div>
     </div>
   </div>
@@ -501,101 +501,58 @@
 </div>
 </template>
 
-<template id="tpl-projects">
+<template id="tpl-experience">
 <div class="shell">
   <header class="projects-header">
     <p class="section-label">work</p>
-    <h1>Projects</h1>
-    <p>A selection of things I've built, shipped, and learned from.</p>
+    <h1>Experience</h1>
+    <p>Professional roles where I've applied data science and research skills.</p>
   </header>
 
   <div class="proj-grid">
     <article class="proj-card">
-      <div class="proj-icon">⚙️</div>
-      <div class="proj-name">stream-bridge</div>
-      <p class="proj-desc">Zero-config SSE &rarr; WebSocket proxy. Drop it in front of any HTTP stream and get bidirectional support instantly.</p>
-      <div class="proj-tags">
-        <span class="tag">Rust</span>
-        <span class="tag cyan">WebSocket</span>
-        <span class="tag green">open-source</span>
-      </div>
-      <div class="proj-footer">
-        <span>★ 1.2k</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
-      </div>
-    </article>
-
-    <article class="proj-card">
-      <div class="proj-icon">🗃️</div>
-      <div class="proj-name">minivault</div>
-      <p class="proj-desc">Tiny encrypted key-value store for Node. 12 kB, zero deps, AES-GCM under the hood, TypeScript-native.</p>
-      <div class="proj-tags">
-        <span class="tag">TypeScript</span>
-        <span class="tag">Node</span>
-        <span class="tag green">open-source</span>
-      </div>
-      <div class="proj-footer">
-        <span>★ 890</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
-      </div>
-    </article>
-
-    <article class="proj-card">
       <div class="proj-icon">📊</div>
-      <div class="proj-name">dashkit</div>
-      <p class="proj-desc">Headless dashboard primitives for React. Composable chart wrappers, table state, and filter logic — bring your own styles.</p>
+      <div class="proj-name">Project Technical Assistant</div>
+      <p class="proj-desc">Philippine Institute for Development Studies. Cleaned and processed datasets for the HEFP dashboard; researched the efficacy of eSOA in DRG implementation; analyzed and visualized health financing data using Stata and Python.</p>
       <div class="proj-tags">
-        <span class="tag">React</span>
-        <span class="tag cyan">Headless UI</span>
+        <span class="tag">Python</span>
+        <span class="tag">Stata</span>
+        <span class="tag cyan">Health Financing</span>
+        <span class="tag green">Current</span>
       </div>
       <div class="proj-footer">
-        <span>★ 540</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
+        <span>Jun 2025 – Present</span>
+        <a class="proj-link" href="https://www.pids.gov.ph" target="_blank" rel="noopener">PIDS →</a>
       </div>
     </article>
 
     <article class="proj-card">
-      <div class="proj-icon">🔁</div>
-      <div class="proj-name">retryq</div>
-      <p class="proj-desc">Persistent job queue with exponential backoff, dead-letter storage, and a Postgres backend. Survives restarts.</p>
+      <div class="proj-icon">🔬</div>
+      <div class="proj-name">Consultant</div>
+      <p class="proj-desc">Epimetrics Inc. Cleaned cancer datasets for the Health Inequity project; authored technical reports on the cleaned data; designed and delivered a Python training and familiarization program for staff.</p>
       <div class="proj-tags">
-        <span class="tag">TypeScript</span>
-        <span class="tag">Postgres</span>
-        <span class="tag green">open-source</span>
+        <span class="tag">Python</span>
+        <span class="tag cyan">Data Cleaning</span>
+        <span class="tag">Research Writing</span>
       </div>
       <div class="proj-footer">
-        <span>★ 410</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
+        <span>Mar 2025 – May 2025</span>
+        <a class="proj-link" href="https://epimetrics.com.ph" target="_blank" rel="noopener">Epimetrics →</a>
       </div>
     </article>
 
     <article class="proj-card">
-      <div class="proj-icon">🌐</div>
-      <div class="proj-name">edge-flags</div>
-      <p class="proj-desc">Feature flags at the CDN edge. Evaluate at Cloudflare Workers, near zero latency. No client-side JS needed.</p>
+      <div class="proj-icon">⚡</div>
+      <div class="proj-name">Junior Data Analyst</div>
+      <p class="proj-desc">Gridware. Built Python tools to interpret Grafana electrical grid readings into concise quantitative data, cutting average alert response time from 1 hour to under 30 minutes. Collaborated with a worldwide team ensuring 24/7 coverage.</p>
       <div class="proj-tags">
-        <span class="tag">Rust</span>
-        <span class="tag cyan">Edge</span>
-        <span class="tag">Cloudflare</span>
+        <span class="tag">Python</span>
+        <span class="tag cyan">Grafana</span>
+        <span class="tag green">−50% response time</span>
       </div>
       <div class="proj-footer">
-        <span>★ 280</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
-      </div>
-    </article>
-
-    <article class="proj-card">
-      <div class="proj-icon">🧪</div>
-      <div class="proj-name">snaptest</div>
-      <p class="proj-desc">Snapshot testing for HTTP APIs. Record a response once, replay it in CI. Diff with git, no extra infra.</p>
-      <div class="proj-tags">
-        <span class="tag">Node</span>
-        <span class="tag">Testing</span>
-        <span class="tag green">open-source</span>
-      </div>
-      <div class="proj-footer">
-        <span>★ 195</span>
-        <a class="proj-link" href="https://github.com/moadotexe" target="_blank">View →</a>
+        <span>Apr 2024 – Jun 2024</span>
+        <a class="proj-link" href="https://gridware.com.au" target="_blank" rel="noopener">Gridware →</a>
       </div>
     </article>
   </div>
@@ -608,24 +565,23 @@
     <div class="about">
       <p class="section-label">about</p>
       <h1>Hey, I'm Moa.</h1>
-      <p>I'm a full-stack developer focused on <strong>developer tooling</strong> and <strong>performance</strong>. I like figuring out where systems slow down and fixing that.</p>
-      <p>Most of my work lives in the TypeScript + Rust stack — TS for the product surface, Rust for anything that needs to be fast or correct. I care a lot about API design, good error messages, and software that's a pleasure to maintain.</p>
-      <p>Outside code, I'm into analog photography, long-form podcasts, and hunting for good coffee. I share notes on what I'm building and learning on <a href="https://github.com/moadotexe" style="color:var(--accent)">GitHub</a>.</p>
+      <p>I'm a <strong>data scientist in training</strong> with a background in <strong>Applied Physics (Computational)</strong>. I conduct data analysis on health financing data to support policy research and decision-making.</p>
+      <p>Most of my work lives in the Python + Stata stack — Python for data processing and tooling, Stata for statistical analysis. I care about reproducible workflows, clear technical documentation, and making complex data understandable to non-technical audiences.</p>
+      <p>Outside of work, I'm expanding into machine learning and health econometrics. I share notes and code on <a href="https://github.com/moadotexe" style="color:var(--accent)">GitHub</a>. Bilingual in English and Tagalog.</p>
 
       <hr class="divider">
       <p class="section-label">stack</p>
       <div class="skill-list">
-        <span class="tag">TypeScript</span>
-        <span class="tag">Rust</span>
-        <span class="tag cyan">React</span>
-        <span class="tag cyan">Node.js</span>
-        <span class="tag green">Postgres</span>
-        <span class="tag green">Redis</span>
-        <span class="tag">Docker</span>
-        <span class="tag">Cloudflare Workers</span>
-        <span class="tag cyan">Vite</span>
-        <span class="tag">Linux</span>
-        <span class="tag green">GitHub Actions</span>
+        <span class="tag">Python</span>
+        <span class="tag">Stata</span>
+        <span class="tag cyan">Machine Learning</span>
+        <span class="tag cyan">Statistical Analysis</span>
+        <span class="tag green">Research Writing</span>
+        <span class="tag green">Data Cleaning</span>
+        <span class="tag">VSCode</span>
+        <span class="tag">GitHub</span>
+        <span class="tag cyan">Google Suite</span>
+        <span class="tag">Microsoft Office</span>
       </div>
     </div>
 
@@ -634,21 +590,21 @@
         <div class="about-card-header">// profile.json</div>
         <div class="about-card-body">
           <div class="info-row"><span class="info-key">name</span><span class="info-val">"moa"</span></div>
-          <div class="info-row"><span class="info-key">role</span><span class="info-val">"fullstack dev"</span></div>
-          <div class="info-row"><span class="info-key">focus</span><span class="info-val">"tooling, perf"</span></div>
-          <div class="info-row"><span class="info-key">exp</span><span class="info-val">"5+ years"</span></div>
-          <div class="info-row"><span class="info-key">open_to</span><span class="info-val">"collab"</span></div>
-          <div class="info-row"><span class="info-key">timezone</span><span class="info-val">"UTC+??"</span></div>
+          <div class="info-row"><span class="info-key">role</span><span class="info-val">"data scientist"</span></div>
+          <div class="info-row"><span class="info-key">focus</span><span class="info-val">"health financing"</span></div>
+          <div class="info-row"><span class="info-key">degree</span><span class="info-val">"Applied Physics"</span></div>
+          <div class="info-row"><span class="info-key">open_to</span><span class="info-val">"research roles"</span></div>
+          <div class="info-row"><span class="info-key">timezone</span><span class="info-val">"UTC+8 (PH)"</span></div>
         </div>
       </div>
       <div style="height:1rem"></div>
       <div class="about-card">
         <div class="about-card-header">// currently.log</div>
         <div class="about-card-body" style="font-size:.85rem;color:var(--muted);line-height:1.9">
-          <div>📖 Reading <span style="color:var(--text)">Crafting Interpreters</span></div>
-          <div>🏗️ Building <span style="color:var(--text)">stream-bridge v2</span></div>
-          <div>🎧 Listening <span style="color:var(--text)">Changelog podcast</span></div>
-          <div>📷 Shooting <span style="color:var(--text)">Kodak Portra 400</span></div>
+          <div>📖 Reading <span style="color:var(--text)">The Elements of Statistical Learning</span></div>
+          <div>🏗️ Building <span style="color:var(--text)">HEFP dashboard dataset</span></div>
+          <div>🎓 Studying <span style="color:var(--text)">health econometrics</span></div>
+          <div>🌏 Based in <span style="color:var(--text)">Philippines (UTC+8)</span></div>
         </div>
       </div>
     </div>
@@ -661,7 +617,7 @@
   <div class="contact-layout">
     <p class="section-label">contact</p>
     <h1>Let's talk.</h1>
-    <p>Open to collaborations, contract work, or just a good conversation about distributed systems and coffee.</p>
+    <p>Open to research roles, data analysis projects, or conversations about health policy and data science.</p>
 
     <div class="contact-grid">
       <a class="contact-card" href="https://github.com/moadotexe" target="_blank" rel="noopener">
@@ -678,18 +634,11 @@
           <div class="contact-info-val">hello@moa.dev</div>
         </div>
       </a>
-      <a class="contact-card" href="#">
-        <span class="contact-icon">🐦</span>
-        <div>
-          <div class="contact-info-name">Twitter / X</div>
-          <div class="contact-info-val">@moadotexe</div>
-        </div>
-      </a>
-      <a class="contact-card" href="#">
+      <a class="contact-card" href="https://www.linkedin.com/in/dodi-banzon/" target="_blank" rel="noopener">
         <span class="contact-icon">💼</span>
         <div>
           <div class="contact-info-name">LinkedIn</div>
-          <div class="contact-info-val">in/moadotexe</div>
+          <div class="contact-info-val">in/dodi-banzon</div>
         </div>
       </a>
     </div>
@@ -718,7 +667,7 @@
 <!-- ██ SCRIPT ██ -->
 <script>
   // ── Router ──────────────────────────────────────
-  const PAGES = ['home', 'projects', 'about', 'contact'];
+  const PAGES = ['home', 'experience', 'about', 'contact'];
   let current = 'home';
 
   function getPage() {
